@@ -19,6 +19,17 @@ Route::get('/', function () {
 });
 //laravel 8 (new)
 Route::get('Dashboard',[Dashboard::class,'index']);
+Route::get('add_delays',[add_delays::class,'index']);
+Route::get('delays',[delays::class,'index']);
+Route::get('addvoyage',[addvoyage::class,'index']);
+Route::get('forgot_password',[forgot_password::class,'index']);
+Route::get('login',[login::class,'index']);
+Route::get('profile',[profile::class,'index']);
+Route::get('register',[register::class,'index']);
+Route::get('reports',[reports::class,'index']);
+Route::get('shipdschedule',[shipdschedule::class,'index']);
+
+
 
 
 
