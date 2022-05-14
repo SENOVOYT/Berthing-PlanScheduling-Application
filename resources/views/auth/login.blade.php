@@ -1,13 +1,7 @@
 @extends('layouts.app')
 
 @section('content')
-<div class="container">
-    <div class="row justify-content-center">
-        <div class="col-md-8">
-            <div class="card">
-                <div class="card-header">{{ __('Login') }}</div>
 
-                <div class="card-body">
                     <form method="POST" action="{{ route('login') }}">
                         @csrf
 
@@ -65,9 +59,21 @@
                             </div>
                         </div>
                     </form>
-                </div>
-            </div>
-        </div>
+                
+
+<section class="register-photo">
+    <div class="form-container">
+        <div class="image-holder"></div>
+        <form method="POST" action="{{ route('login') }}">
+            <h2 class="text-center"><strong>Welcome Back!</strong></h2>
+            <div class="mb-3"><input class="form-control" type="email" name="email" placeholder="Email"></div>
+            <div class="mb-3"><input class="form-control" type="password" name="password" placeholder="Password"></div>
+            <div class="form-check"><input class="form-check-input" type="checkbox" id="formCheck-1"><label class="form-check-label" for="formCheck-1">Remember Me<br></label></div>
+            <div class="mb-3"></div>
+            <div class="mb-3"></div>
+            
+            <div class="mb-3"><a class="btn btn-primary d-block w-100" role="button"> {{ __('Login') }}</a></div><a class="already" href="register.html">Create An Account!</a><a class="already" href="forgot-password.html">Forgot Password?<br></a>
+        </form>
     </div>
-</div>
+</section>
 @endsection

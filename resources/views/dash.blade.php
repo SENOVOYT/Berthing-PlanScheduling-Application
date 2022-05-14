@@ -7,5 +7,6 @@
 </head>
 <body>
     <h1>DASH PAGE</h1>
+    <p>{{ $dash }}</p>
 </body>
 </html>

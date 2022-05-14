@@ -11,6 +11,7 @@ use App\Http\Controllers\profile;
 use App\Http\Controllers\register;
 use App\Http\Controllers\reports;
 use App\Http\Controllers\shipdschedule;
+use Illuminate\Support\Facades\Auth;
 
 /*
 |--------------------------------------------------------------------------
@@ -27,7 +28,7 @@ Route::get('/', function () {
     return view('welcome');
 });
 //laravel 8 (new)
-Route::get('Dashboard',[Dashboard::class,'index']);
+Route::get('Dashboard',[Dashboard::class,'index'])->name('Dashboard');
 Route::get('add_delays',[add_delays::class,'index']);
 Route::get('delays',[delays::class,'index']);
 Route::get('addvoyage',[addvoyage::class,'index']);
@@ -37,6 +38,7 @@ Route::get('profile',[profile::class,'index']);
 Route::get('register',[register::class,'index']);
 Route::get('reports',[reports::class,'index']);
 Route::get('shipdschedule',[shipdschedule::class,'index']);
+Route::get('Dashboard/{id}',[Dashboard::class,'show']);
 
 
 
