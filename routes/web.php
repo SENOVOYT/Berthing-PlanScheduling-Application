@@ -1,7 +1,16 @@
 <?php
 
+use App\Http\Controllers\add_delays;
+use App\Http\Controllers\addvoyage;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\Dashboard;
+use App\Http\Controllers\delays;
+use App\Http\Controllers\forgot_password;
+use App\Http\Controllers\login;
+use App\Http\Controllers\profile;
+use App\Http\Controllers\register;
+use App\Http\Controllers\reports;
+use App\Http\Controllers\shipdschedule;
 
 /*
 |--------------------------------------------------------------------------
