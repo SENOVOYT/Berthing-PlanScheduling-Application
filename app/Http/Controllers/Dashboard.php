@@ -19,7 +19,7 @@ class Dashboard extends Controller
         ];
         //return view('Dashboard.index', compact('dash','des') );
         // return view('Dashboard.index')->with('dash',$dash);
-         return view('Dashboard.index')->with('data',$data);
+         return view('Dashboard.index');
         
     }
     public function show($id){

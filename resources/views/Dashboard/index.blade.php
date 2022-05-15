@@ -28,11 +28,8 @@
         <div id="content" style="--bs-primary-rgb: 64,31,136;--bs-primary: #401f88;">
             <nav class="navbar navbar-light navbar-expand bg-white shadow mb-4 topbar static-top">
                 <div class="container-fluid"><button class="btn btn-link d-md-none rounded-circle me-3" id="sidebarToggleTop" type="button"><i class="fas fa-bars"></i></button>
-                    <form class="d-none d-sm-inline-block me-auto ms-md-3 my-2 my-md-0 mw-100 navbar-search">
-                        <div class="input-group"><input class="bg-light form-control border-0 small" type="text" placeholder="Search for ..."><button class="btn btn-primary py-0" type="button"><i class="fas fa-search"></i></button></div>
-                    </form>
                     <ul class="navbar-nav flex-nowrap ms-auto">
-                        <li class="nav-item dropdown d-sm-none no-arrow"><a class="dropdown-toggle nav-link" aria-expanded="false" data-bs-toggle="dropdown" href="#"><i class="fas fa-search"></i></a>
+                        <li class="nav-item dropdown d-sm-none no-arrow">
                             <div class="dropdown-menu dropdown-menu-end p-3 animated--grow-in" aria-labelledby="searchDropdown">
                                 <form class="me-auto navbar-search w-100">
                                     <div class="input-group"><input class="bg-light form-control border-0 small" type="text" placeholder="Search for ...">
@@ -42,22 +39,15 @@
                             </div>
                         </li>
                         <li class="nav-item dropdown no-arrow mx-1">
-                            <div class="nav-item dropdown no-arrow"><a class="dropdown-toggle nav-link" aria-expanded="false" data-bs-toggle="dropdown" href="#"><span class="badge bg-danger badge-counter">3+</span><i class="fas fa-bell fa-fw"></i></a>
+                            <div class="nav-item dropdown no-arrow"><a class="dropdown-toggle nav-link" aria-expanded="false" data-bs-toggle="dropdown" href="#"><span class="badge bg-danger badge-counter">
+                                
+                                3+
+                                
+                            </span><i class="fas fa-bell fa-fw"></i></a>
                                 <div class="dropdown-menu dropdown-menu-end dropdown-list animated--grow-in">
-                                    <h6 class="dropdown-header">alerts center</h6><a class="dropdown-item d-flex align-items-center" href="#">
-                                        <div class="me-3">
-                                            <div class="bg-primary icon-circle"><i class="fas fa-file-alt text-white"></i></div>
-                                        </div>
-                                        <div><span class="small text-gray-500">December 12, 2019</span>
-                                            <p>A new monthly report is ready to download!</p>
-                                        </div>
-                                    </a><a class="dropdown-item d-flex align-items-center" href="#">
-                                        <div class="me-3">
-                                            <div class="bg-success icon-circle"><i class="fas fa-donate text-white"></i></div>
-                                        </div>
-                                        <div><span class="small text-gray-500">December 7, 2019</span>
-                                            <p>$290.29 has been deposited into your account!</p>
-                                        </div>
+                                    <h6 class="dropdown-header">Notification center</h6>
+                                        
+                                    
                                     </a><a class="dropdown-item d-flex align-items-center" href="#">
                                         <div class="me-3">
                                             <div class="bg-warning icon-circle"><i class="fas fa-exclamation-triangle text-white"></i></div>
@@ -65,7 +55,7 @@
                                         <div><span class="small text-gray-500">December 2, 2019</span>
                                             <p>Spending Alert: We've noticed unusually high spending for your account.</p>
                                         </div>
-                                    </a><a class="dropdown-item text-center small text-gray-500" href="#">Show All Alerts</a>
+                                    </a><a class="dropdown-item text-center small text-gray-500" href="#">Alerts</a>
                                 </div>
                             </div>
                         </li>
@@ -73,7 +63,7 @@
                             <div class="nav-item dropdown no-arrow"><a class="dropdown-toggle nav-link" aria-expanded="false" data-bs-toggle="dropdown" href="#"><span class="badge bg-danger badge-counter">7</span><i class="fas fa-envelope fa-fw"></i></a>
                                 <div class="dropdown-menu dropdown-menu-end dropdown-list animated--grow-in">
                                     <h6 class="dropdown-header">alerts center</h6><a class="dropdown-item d-flex align-items-center" href="#">
-                                        <div class="dropdown-list-image me-3"><img class="rounded-circle" src="assets/img/avatars/avatar4.jpeg">
+                                        <div class="dropdown-list-image me-3"><img class="rounded-circle" src="{{ URL('assets/img/avatars/avatar4.jpeg') }}">
                                             <div class="bg-success status-indicator"></div>
                                         </div>
                                         <div class="fw-bold">
@@ -81,7 +71,7 @@
                                             <p class="small text-gray-500 mb-0">Emily Fowler - 58m</p>
                                         </div>
                                     </a><a class="dropdown-item d-flex align-items-center" href="#">
-                                        <div class="dropdown-list-image me-3"><img class="rounded-circle" src="assets/img/avatars/avatar2.jpeg">
+                                        <div class="dropdown-list-image me-3"><img class="rounded-circle" src="{{ URL('img/avatars/avatar2.jpeg') }}">
                                             <div class="status-indicator"></div>
                                         </div>
                                         <div class="fw-bold">
@@ -89,7 +79,7 @@
                                             <p class="small text-gray-500 mb-0">Jae Chun - 1d</p>
                                         </div>
                                     </a><a class="dropdown-item d-flex align-items-center" href="#">
-                                        <div class="dropdown-list-image me-3"><img class="rounded-circle" src="assets/img/avatars/avatar3.jpeg">
+                                        <div class="dropdown-list-image me-3"><img class="rounded-circle" src="{{ asset('img/avatars/avatar3.jpeg') }}">
                                             <div class="bg-warning status-indicator"></div>
                                         </div>
                                         <div class="fw-bold">
@@ -97,7 +87,7 @@
                                             <p class="small text-gray-500 mb-0">Morgan Alvarez - 2d</p>
                                         </div>
                                     </a><a class="dropdown-item d-flex align-items-center" href="#">
-                                        <div class="dropdown-list-image me-3"><img class="rounded-circle" src="assets/img/avatars/avatar5.jpeg">
+                                        <div class="dropdown-list-image me-3"><img class="rounded-circle" src="{{ asset('img/avatars/avatar5.jpeg') }}">
                                             <div class="bg-success status-indicator"></div>
                                         </div>
                                         <div class="fw-bold">
@@ -111,11 +101,7 @@
                         </li>
                         <div class="d-none d-sm-block topbar-divider"></div>
                         <li class="nav-item dropdown no-arrow">
-                            <div class="nav-item dropdown no-arrow"><a class="dropdown-toggle nav-link" aria-expanded="false" data-bs-toggle="dropdown" href="#"><span class="d-none d-lg-inline me-2 text-gray-600 small">Osborn Collins</span><img class="border rounded-circle img-profile" src="assets/img/avatars/avatar1.jpeg"></a>
-                                <div class="dropdown-menu shadow dropdown-menu-end animated--grow-in"><a class="dropdown-item" href="profile.html"><i class="fas fa-user fa-sm fa-fw me-2 text-gray-400"></i>&nbsp;Profile</a><a class="dropdown-item" href="#"><i class="fas fa-cogs fa-sm fa-fw me-2 text-gray-400"></i>&nbsp;Settings</a><a class="dropdown-item" href="#"><i class="fas fa-list fa-sm fa-fw me-2 text-gray-400"></i>&nbsp;Activity log</a>
-                                    <div class="dropdown-divider"></div><a class="dropdown-item" href="login.html"><i class="fas fa-sign-out-alt fa-sm fa-fw me-2 text-gray-400"></i>&nbsp;Logout</a>
-                                </div>
-                            </div>
+                            
                         </li>
                     </ul>
                 </div>
@@ -138,7 +124,7 @@
                     </div>
                     <div class="col-md-3" style="width: 250px;">
                         <div class="card shadow" data-bss-hover-animate="tada" style="border-radius: 59px;height: 347.984px;border-style: none;background: #82c6e2;">
-                            <div class="card-body" style="text-align: center;border-radius: 0px;border-style: none;"><img src="assets/img/vessels/ship-icon.png" style="width: 80px;text-align: center;">
+                            <div class="card-body" style="text-align: center;border-radius: 0px;border-style: none;"><img src="{{ asset('img/vessels/ship-icon.png')}}" style="width: 80px;text-align: center;">
                                 <h4 class="card-title" style="color: var(--bs-body-bg);">Caribe Mariner</h4>
                                 <h6 class="text-muted card-subtitle mb-2">Voyage #: 1018</h6>
                                 <p class="card-text"></p>
@@ -152,7 +138,7 @@
                     </div>
                     <div class="col-md-3" style="width: 250px;">
                         <div class="card shadow" data-bss-hover-animate="tada" style="border-radius: 59px;height: 347.984px;border-style: none;background: #f4e287;">
-                            <div class="card-body" style="text-align: center;border-radius: 0px;border-style: none;"><img src="assets/img/vessels/ship-icon.png" style="width: 80px;text-align: center;">
+                            <div class="card-body" style="text-align: center;border-radius: 0px;border-style: none;"><img src="{{ asset('img/vessels/ship-icon.png')}}" style="width: 80px;text-align: center;">
                                 <h4 class="card-title" style="color: var(--bs-body-bg);">Jan Caribe</h4>
                                 <h6 class="text-muted card-subtitle mb-2">Voyage #: 845</h6>
                                 <h1 style="font-size: 17px;color: var(--bs-body-bg);">Vessel Completion</h1>
@@ -166,7 +152,7 @@
                     </div>
                     <div class="col-md-3" style="width: 250px;">
                         <div class="card shadow" data-bss-hover-animate="tada" style="border-radius: 59px;height: 347.984px;border-style: none;background: #84e2a8;">
-                            <div class="card-body" style="text-align: center;border-radius: 0px;border-style: none;"><img src="assets/img/vessels/ship-icon.png" style="width: 80px;text-align: center;">
+                            <div class="card-body" style="text-align: center;border-radius: 0px;border-style: none;"><img src="{{ asset('assets/img/vessels/ship-icon.png')}}" style="width: 80px;text-align: center;">
                                 <h4 class="card-title" style="color: var(--bs-body-bg);">Aries</h4>
                                 <h6 class="text-muted card-subtitle mb-2">Voyage #: 13</h6>
                                 <h1 style="font-size: 17px;color: var(--bs-body-bg);">Vessel Completion</h1>

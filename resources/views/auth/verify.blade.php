@@ -1,6 +1,12 @@
 @extends('layouts.app')
 
 @section('content')
+<style>body {
+    background: -webkit-linear-gradient(rgba(246, 247, 249, 0.8), rgba(246, 247, 249, 0.8)), url(https://upload.wikimedia.org/wikipedia/commons/8/8c/K2,_Mount_Godwin_Austen,_Chogori,_Savage_Mountain.jpg) no-repeat center center fixed;
+    background:  url(https://travel.mqcdn.com/mapquest/travel/wp-content/uploads/2021/01/berth-of-cruise-ship-scaled.jpg) no-repeat center center fixed;
+    background-size: cover;
+  }</style>
+<main class="py-4">
 <div class="container">
     <div class="row justify-content-center">
         <div class="col-md-8">
@@ -25,4 +31,5 @@
         </div>
     </div>
 </div>
+</main>
 @endsection
