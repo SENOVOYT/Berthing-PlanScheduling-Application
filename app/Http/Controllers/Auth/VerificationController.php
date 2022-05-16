@@ -1,5 +1,7 @@
 <?php
-
+// written by: Driane PPerez
+    // tested by: Driane Perez
+    // debugged by: Driane Perez
 namespace App\Http\Controllers\Auth;
 
 use App\Http\Controllers\Controller;

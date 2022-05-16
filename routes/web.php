@@ -1,4 +1,7 @@
 <?php
+// written by: Driane PPerez
+    // tested by: Driane Perez
+    // debugged by: Driane Perez
 
 use App\Http\Controllers\add_delays;
 use App\Http\Controllers\addvoyage;
@@ -11,6 +14,7 @@ use App\Http\Controllers\profile;
 use App\Http\Controllers\register;
 use App\Http\Controllers\reports;
 use App\Http\Controllers\shipdschedule;
+use App\Http\Controllers\VesselController;
 use Illuminate\Support\Facades\Auth;
 
 /*
@@ -39,6 +43,7 @@ Route::get('register',[register::class,'index']);
 Route::get('reports',[reports::class,'index']);
 Route::get('shipdschedule',[shipdschedule::class,'index']);
 Route::get('Dashboard/{id}',[Dashboard::class,'show']);
+Route::resource('/vessels',VesselController::class);
 
 
 

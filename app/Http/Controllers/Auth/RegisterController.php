@@ -1,6 +1,9 @@
 <?php
 
 namespace App\Http\Controllers\Auth;
+// written by: Driane PPerez
+    // tested by: Driane Perez
+    // debugged by: Driane Perez
 
 use App\Http\Controllers\Controller;
 use App\Providers\RouteServiceProvider;

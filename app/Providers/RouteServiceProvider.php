@@ -1,5 +1,7 @@
 <?php
-
+// written by: Driane PPerez
+    // tested by: Driane Perez
+    // debugged by: Driane Perez
 namespace App\Providers;
 
 use Illuminate\Cache\RateLimiting\Limit;
@@ -17,7 +19,7 @@ class RouteServiceProvider extends ServiceProvider
      *
      * @var string
      */
-    public const HOME = '/home';
+    public const HOME = '/vessels';
 
     /**
      * Define your route model bindings, pattern filters, etc.

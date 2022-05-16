@@ -27,6 +27,9 @@ class LoginController extends Controller
      * @var string
      */
     protected $redirectTo = RouteServiceProvider::HOME;
+    // written by: Driane PPerez
+    // tested by: Driane Perez
+    // debugged by: Driane Perez
 
     /**
      * Create a new controller instance.

@@ -1,5 +1,8 @@
 
 @extends('layouts.app')
+{{-- // written by: Driane PPerez
+  // tested by: Driane Perez
+  // debugged by: Driane Perez --}}
 
 @section('content')
 

@@ -1,4 +1,7 @@
 <!doctype html>
+{{-- // written by: Driane PPerez
+  // tested by: Driane Perez
+  // debugged by: Driane Perez --}}
 <html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
 <head>
     <meta charset="utf-8">
@@ -10,6 +13,7 @@
     <link rel="stylesheet" href="{{ asset('fonts/fontawesome5-overrides.min.css') }}">
     
     <link rel="stylesheet" href="{{ asset('css/login-form.css') }}">
+    <link rel="shortcut icon" type="image/jpg" href="{{ asset('img/favicon.ico') }}"/>
     
     
 
