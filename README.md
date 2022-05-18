@@ -1,4 +1,4 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a><br> <img src="sssasa.jpg" width="200"><br>DRIANE PEREZ<br></p>
+<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a><br> <img src="sssasa.jpg" width="200"><br>DRIANE DIOJAN PEREZ<br><br> <img src="MarkPascual.JPG" width="200"><br>MARK ANTHONY PASCUAL<br><br> <img src="ocl.jpeg" width="200"><br>OSBORN JOSEPH COLLINS<br></p>
 
 
 
