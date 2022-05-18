@@ -50,7 +50,7 @@ database/migrations -
 - public – this were the public file that the server used for CSS, JavaScript, fonts, images, bootstrap, the favicon.
 resources/views – this were the views that were displayed to the user. Mostly HTML code was used over here.
 - routes – this were the rotes that the user could enter were mentioned here. If a route wasn’t present, then the 404 page was displayed to the user.
--Most of the files were divided into section to each section does the same but for different link/ routes. The controller did it job to do unction that were needed. The middle ware did its stuff to when did it executed it code as a middleware does. The models communicated to the tale database. Migration was the actual code that will generate the migration to the database. The view displayed pages. The routes were link that the user could access. Finally, the public was the resourced that the views needed. 
+- Most of the files were divided into section to each section does the same but for different link/ routes. The controller did it job to do unction that were needed. The middle ware did its stuff to when did it executed it code as a middleware does. The models communicated to the tale database. Migration was the actual code that will generate the migration to the database. The view displayed pages. The routes were link that the user could access. Finally, the public was the resourced that the views needed. 
 
 
 ## About Laravel
